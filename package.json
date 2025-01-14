@@ -150,7 +150,7 @@
     "dev": "rsbuild build --watch",
     "lint": "eslint . --cache",
     "lint:fix": "eslint . --fix --cache",
-    "package": "vsce package --no-dependencies",
+    "package": "vsce package --no-dependencies -o packages/",
     "vscode:prepublish": "pnpm build",
     "test": "pnpm typecheck && vitest && vscode-test",
     "test:unit": "vitest",
